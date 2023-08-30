@@ -2,7 +2,7 @@ name: Jest Test on pull requests
 on:
   pull_request:
     branches:
-      - main
+      - master
 jobs:
   test-jest:
     runs-on: ubuntu-latest

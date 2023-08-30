@@ -2,7 +2,7 @@ name: Tests the compilation of the program on pull requests
 on:
   pull_request:
     branches:
-      - main
+      - master
 jobs:
   test-compilation:
     runs-on: ubuntu-latest
